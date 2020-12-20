@@ -1,4 +1,4 @@
-import { Certificate } from "../components/certifications/CertificationsSection";
+import { Certificate } from "../interfaces/certifications.interface";
 
 export const certificates: Certificate[] = [
   {

@@ -1,12 +1,6 @@
 import "./CertificationsSection.scss";
+import { Certificate } from "../../interfaces/certifications.interface";
 import Section from "../Section";
-
-export interface Certificate {
-  name: string;
-  issuer?: string;
-  issuedDate: Date;
-  url: string;
-}
 
 interface CertificationsSectionParams {
   certs: Certificate[];

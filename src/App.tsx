@@ -6,12 +6,13 @@ import CertificationsSection from "./components/certifications/CertificationsSec
 import FunSection from "./components/fun/FunSection";
 import { certificates } from "./data/certificates.data";
 import { spokenlanguages } from "./data/spokenlanguages.data";
+import { experiences } from "./data/experiences.data";
 
 function App() {
   return (
     <div className="App">
       <CertificationsSection certs={certificates} />
-      <ExperienceSection />
+      <ExperienceSection exp={experiences} />
       <SpokenLanguagesSection spoken={spokenlanguages} />
       <FunSection />
     </div>
