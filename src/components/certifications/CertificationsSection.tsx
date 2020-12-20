@@ -1,6 +1,6 @@
 import "./CertificationsSection.scss";
 import { Certificate } from "../../interfaces/certifications.interface";
-import Section from "../Section";
+import SectionHeader from "../SectionHeader";
 
 interface CertificationsSectionParams {
   certs: Certificate[];
@@ -12,7 +12,7 @@ const CertificationsSection = ({ certs }: CertificationsSectionParams) => {
   );
   return (
     <div className="certifications-section">
-      <Section header="Certifications"></Section>
+      <SectionHeader header="Certifications"></SectionHeader>
       <ol>
         {certsSorted.map((cert) => (
           <li>

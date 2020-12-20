@@ -1,7 +1,7 @@
-import Section from "../Section";
+import SectionHeader from "../SectionHeader";
 
 const FunSection = () => {
-  return <Section header="For Fun"></Section>;
+  return <SectionHeader header="For Fun"></SectionHeader>;
 };
 
 export default FunSection;

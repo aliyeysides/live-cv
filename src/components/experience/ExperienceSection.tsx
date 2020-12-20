@@ -1,5 +1,5 @@
 import { Experience } from "../../interfaces/experiences.interface";
-import Section from "../Section";
+import SectionHeader from "../SectionHeader";
 
 interface ExperienceSectionParams {
   exp: Experience[];
@@ -7,8 +7,8 @@ interface ExperienceSectionParams {
 
 const ExperienceSection = ({ exp }: ExperienceSectionParams) => {
   return (
-    <div>
-      <Section header="Experience"></Section>
+    <div className="experience-section">
+      <SectionHeader header="Experience"></SectionHeader>
       <ol>
         {exp.map((x) => (
           <div className="experience-card">

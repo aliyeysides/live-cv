@@ -1,4 +1,4 @@
-import Section from "../Section";
+import SectionHeader from "../SectionHeader";
 
 interface SpokenLanguagesSectionParams {
   spoken: string[];
@@ -7,7 +7,7 @@ interface SpokenLanguagesSectionParams {
 const SpokenLanguagesSection = ({ spoken }: SpokenLanguagesSectionParams) => {
   return (
     <div className="spoken-languages-section">
-      <Section header="Spoken Languages"></Section>
+      <SectionHeader header="Spoken Languages"></SectionHeader>
       <ol>
         {spoken.map((lang) => (
           <li>{lang}</li>
