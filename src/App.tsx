@@ -4,6 +4,8 @@ import SpokenLanguagesSection from "./components/languages/SpokenLanguagesSectio
 import ExperienceSection from "./components/experience/ExperienceSection";
 import CertificationsSection from "./components/certifications/CertificationsSection";
 import FunSection from "./components/fun/FunSection";
+import ProfilePhoto from "./components/profile-photo/ProfilePhoto";
+
 import { certificates } from "./data/certificates.data";
 import { spokenlanguages } from "./data/spokenlanguages.data";
 import { experiences } from "./data/experiences.data";
@@ -11,6 +13,7 @@ import { experiences } from "./data/experiences.data";
 function App() {
   return (
     <div className="App">
+      <ProfilePhoto />
       <CertificationsSection certs={certificates} />
       <ExperienceSection exp={experiences} />
       <SpokenLanguagesSection spoken={spokenlanguages} />

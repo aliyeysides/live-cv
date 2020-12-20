@@ -13,6 +13,8 @@ const ExperienceSection = ({ exp }: ExperienceSectionParams) => {
         {exp.map((x) => (
           <div className="experience-card">
             <h2>{x.companyName}</h2>
+            <p>{x.title}</p>
+            <p>{x.location}</p>
           </div>
         ))}
       </ol>

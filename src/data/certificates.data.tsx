@@ -2,7 +2,7 @@ import { Certificate } from "../interfaces/certifications.interface";
 
 export const certificates: Certificate[] = [
   {
-    name: "Machine Learning",
+    name: "Machine Learning by Stanford Online",
     issuer: "Coursera",
     issuedDate: new Date(2020, 10),
     url: "https://www.coursera.org/account/accomplishments/verify/25RWW9RMUT4N",
