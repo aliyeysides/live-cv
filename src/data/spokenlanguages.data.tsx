@@ -1,1 +1,1 @@
-export const spokenlanguagesData = ["Türkçe", "English"];
+export const spokenlanguages = ["Türkçe", "English"];

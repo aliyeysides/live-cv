@@ -4,15 +4,15 @@ import SpokenLanguagesSection from "./components/languages/SpokenLanguagesSectio
 import ExperienceSection from "./components/experience/ExperienceSection";
 import CertificationsSection from "./components/certifications/CertificationsSection";
 import FunSection from "./components/fun/FunSection";
-import { certsData } from "./data/certificates.data";
-import { spokenlanguagesData } from "./data/spokenlanguages.data";
+import { certificates } from "./data/certificates.data";
+import { spokenlanguages } from "./data/spokenlanguages.data";
 
 function App() {
   return (
     <div className="App">
-      <CertificationsSection certs={certsData} />
+      <CertificationsSection certs={certificates} />
       <ExperienceSection />
-      <SpokenLanguagesSection spoken={spokenlanguagesData} />
+      <SpokenLanguagesSection spoken={spokenlanguages} />
       <FunSection />
     </div>
   );

@@ -1,6 +1,6 @@
 import { Certificate } from "../components/certifications/CertificationsSection";
 
-export const certsData: Certificate[] = [
+export const certificates: Certificate[] = [
   {
     name: "Machine Learning",
     issuer: "Coursera",
