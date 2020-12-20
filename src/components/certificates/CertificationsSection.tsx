@@ -1,3 +1,4 @@
+import "./CertificationsSection.scss";
 import Section from "../Section";
 
 export interface Certificate {
@@ -18,7 +19,7 @@ const CertificationsSection = ({ certs }: CertificationsSectionParams) => {
   return (
     <div className="certifications-section">
       <Section header="Certifications"></Section>
-      <ul>
+      <ol>
         {certsSorted.map((cert) => (
           <li>
             <a href={cert.url} target="__blank">
@@ -26,7 +27,7 @@ const CertificationsSection = ({ certs }: CertificationsSectionParams) => {
             </a>
           </li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
 };
