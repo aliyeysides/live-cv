@@ -1,4 +1,4 @@
-import { Certificate } from "../components/certificates/CertificationsSection";
+import { Certificate } from "../components/certifications/CertificationsSection";
 
 export const certsData: Certificate[] = [
   {
