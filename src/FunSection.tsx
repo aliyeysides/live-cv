@@ -1,4 +1,4 @@
-import Section from "./Section";
+import Section from "./components/Section";
 
 const FunSection = () => {
   return <Section header="For Fun"></Section>;

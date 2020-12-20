@@ -1,4 +1,4 @@
-import Section from "./Section";
+import Section from "./components/Section";
 
 const SpokenLanguagesSection = () => {
   return <Section header="Spoken Languages"></Section>;
