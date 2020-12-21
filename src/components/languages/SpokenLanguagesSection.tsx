@@ -10,7 +10,7 @@ const SpokenLanguagesSection = ({ spoken }: SpokenLanguagesSectionParams) => {
       <SectionHeader header="Spoken Languages"></SectionHeader>
       <ol>
         {spoken.map((lang) => (
-          <li>{lang}</li>
+          <li key={lang}>{lang}</li>
         ))}
       </ol>
     </div>

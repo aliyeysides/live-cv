@@ -15,7 +15,7 @@ const CertificationsSection = ({ certs }: CertificationsSectionParams) => {
       <SectionHeader header="Certifications"></SectionHeader>
       <ol>
         {certsSorted.map((cert) => (
-          <li>
+          <li key={cert.url}>
             <a href={cert.url} target="__blank">
               {cert.name}
             </a>
