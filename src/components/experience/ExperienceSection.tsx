@@ -1,4 +1,5 @@
 import { Experience } from "../../interfaces/experiences.interface";
+import "./ExperienceSection.scss";
 import SectionHeader from "../SectionHeader";
 
 interface ExperienceSectionParams {
